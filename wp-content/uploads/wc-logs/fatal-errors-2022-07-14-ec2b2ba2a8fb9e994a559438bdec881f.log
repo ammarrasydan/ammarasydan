@@ -1,0 +1,11 @@
+2022-07-14T06:21:33+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Config\Wincher_Client' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\generated\container.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\vendor_prefixed\symfony\dependency-injection\Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getWincherClientService()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\surfaces\classes-surface.php(31): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\helpers\wincher-helper.php(58): Yoast\WP\SEO\Surfaces\Classes_Surface->get('Yoast\\WP\\SEO\\Co...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\admin\class-admin.php(341): Yoast\WP\SEO\Helpers\Wincher_Helper->login_status()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\admin\class-admin.php(266): WPSEO_Admin->localize_admin_global_script()
+#5 C:\xampp\htdoc in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-seo\src\generated\container.php on line 2310
+
+2022-07-14T08:04:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\class-wp-image-editor-gd.php on line 208
+
